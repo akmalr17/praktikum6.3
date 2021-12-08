@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6.3</title>
+    <style>
+        body{
+            background: pink;
+        }
+        img{
+            width: 100px;
+        }
+        .heading{
+            background: rgb(90, 177, 211);
+            height: 70px;
+            margin: 5px;
+            text-align: center;
+        }
+        #con{
+            display: flex;
+            justify-content: space-between;
+        }
+        .aside{
+            flex: 1;
+            background: rgb(82, 201, 201);
+            height: 530px;
+            margin: 5px;
+            text-align: center;
+        }
+        .article{
+            flex: 3;
+            background: rgb(204, 88, 88);
+            height: 530px;
+            margin: 5px;
+            text-align: center;
+        }
+        .footer{
+            height: 70px;
+            margin: 5px;
+            background: rgb(90, 177, 211);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">Heading</div>
+    <div id="con">
+        <div class="aside">aside</div>
+        <div class="article"> article
+            <br>
+            <img src="jembatan.png" alt="">
+            <img src="jembatan.png" alt="">
+            <img src="jembatan.png" alt="">
+        </div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html>
